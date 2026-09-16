@@ -1,0 +1,133 @@
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn--dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn--shop {
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* ============================
+   ШАПКА (Header)
+   ============================ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo::before {
+    content: "►";
+    font-size: 18px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.nav__link {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+    color: #888;
+}
+
+/* ============================
+   ГЛАВНЫЙ БАННЕР (Hero)
+   ============================ */
+.hero {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    max-width: 1400px;
+    margin: 10px auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0 0 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero__content {
+    flex: 1;
+    max-width: 500px;
+    z-index: 2;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.highlight {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.highlight--white {
+    background-color: #fff;
+}
+
+.highlight--yellow {
+    background-color: #f2d15c;
+}
+
+.hero__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.hero__image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero__image img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
